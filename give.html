@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story telling</title>
+     <!-- Bootstrap CSS -->
+     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="give.css">
+
+     <style>
+
+.content{
+   display: none;
+  }
+
+
+.lds-roller {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .lds-roller div {
+    animation: lds-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    transform-origin: 40px 40px;
+  }
+  .lds-roller div:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #c405dd;
+    margin: -4px 0 0 -4px;
+  }
+  .lds-roller div:nth-child(1) {
+    animation-delay: -0.036s;
+  }
+  .lds-roller div:nth-child(1):after {
+    top: 63px;
+    left: 63px;
+  }
+  .lds-roller div:nth-child(2) {
+    animation-delay: -0.072s;
+  }
+  .lds-roller div:nth-child(2):after {
+    top: 68px;
+    left: 56px;
+  }
+  .lds-roller div:nth-child(3) {
+    animation-delay: -0.108s;
+  }
+  .lds-roller div:nth-child(3):after {
+    top: 71px;
+    left: 48px;
+  }
+  .lds-roller div:nth-child(4) {
+    animation-delay: -0.144s;
+  }
+  .lds-roller div:nth-child(4):after {
+    top: 72px;
+    left: 40px;
+  }
+  .lds-roller div:nth-child(5) {
+    animation-delay: -0.18s;
+  }
+  .lds-roller div:nth-child(5):after {
+    top: 71px;
+    left: 32px;
+  }
+  .lds-roller div:nth-child(6) {
+    animation-delay: -0.216s;
+  }
+  .lds-roller div:nth-child(6):after {
+    top: 68px;
+    left: 24px;
+  }
+  .lds-roller div:nth-child(7) {
+    animation-delay: -0.252s;
+  }
+  .lds-roller div:nth-child(7):after {
+    top: 63px;
+    left: 17px;
+  }
+  .lds-roller div:nth-child(8) {
+    animation-delay: -0.288s;
+  }
+  .lds-roller div:nth-child(8):after {
+    top: 56px;
+    left: 12px;
+  }
+  @keyframes lds-roller {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .fadecontent {
+    animation-name: fade;
+    animation-duration: 2s;
+  }
+   
+  @keyframes fade {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+     </style>
+</head>
+
+<body onload="activeShowPage()">
+
+  <div class="lds-roller" id="preloader"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+        <div id="pagecontent" class="content fadecontent">
+
+
+    <!--Navbar Start-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">Normalize Teemagers With Condom</a>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link " href="index.html">หน้าแรก</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="give.html">แบบการแจก</a>
+              </li>
+            </ul>         
+        </div>
+      </nav>
+        <!--Navbar END-->
+
+        <!--Hearder Start-->
+     <div class="name-product">
+      <div class="container">
+        <div class="name-text"><h1>Normalize Teemagers With Condom</h1></div>
+      </div>
+     </div>   
+         <!--Hearder END-->
+
+         <!--Products Start-->
+     <div class="products">        
+          <div class="products-con">
+            <div class="products-item">
+              <div class="products-img"><img src="/pictures/เสื้อ.jpg" alt=""></div>              
+            </div>
+            <div class="products-item">
+              <div class="products-img"><img src="/pictures/เข็มกลัด.jpg" alt=""></div>             
+            </div>
+            <div class="products-item">
+              <div class="products-img"><img src="/pictures/ถุงผ้า.jpg" alt=""></div>              
+            </div>
+          </div>        
+     </div>
+          <!--Products END-->
+
+          <section class="VDO">
+            <div class="vdofake-con">
+             <div class="vdofake-img">
+               <a href="https://www.youtube.com/channel/UCUvObw5WZ4Ov4JpoegqmPRg" target="_blank"><img src="/pictures/pagefakebook.jpg" alt="" ></a>
+             </div>
+            </div>
+            </section>
+           
+         
+        
+
+     <div class="boot-data">
+      <div class="boot-img">
+        <img src="/pictures/Boots.jpg" alt="">
+      </div>
+      <div class="boot-text">
+        <h1>Activity Booth</h1>
+        <p>โดยทางเราจะมีการจัดบูธกิจกรรม เพื่อให้คน Normalize กับการพกถุงยาง , เพื่อแก้ไขปัญหาท้องไม่พร้อม รวมไปถึง โรคติดต่อทางเพศสัมพันธ์, เพื่อสนับสนุนความเท่าเทียมและสิทธิเสรีภาพ ทั้งนี้ภายในงานจะมีกิจกรรมให้เล่นมากมาย รวมถึงลุ้นรับของแจกภายในงานอีกด้วย</p>
+      </div>
+     </div>   
+
+     <section class="page-data">
+      <div class="page-con">
+       <div class="page-img">
+         <a href="https://www.facebook.com/profile.php?id=100007508460646" target="_blank"><img src="/pictures/pagefake.jpg" alt="" ></a>
+       </div>
+      </div>
+      </section>
+     </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
